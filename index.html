@@ -8,10 +8,20 @@
 <body>
 
     <!-- <button onclick="alert('Welcome Awishka')">Click Here</button> -->
-    <p class="welcometxt">Hello Awishka</p>
+    <p id="welcometxt">Hello Awishka</p>
+
+    <button id="chngebtn">Change Text</button>
+
+
+
+
     <script type="text/javascript">
 
-        document.getElementsByClassName('welcometxt')[0].innerHTML="Hello Isuru";
+        document.getElementById('chngebtn').onclick= function(){
+            document.getElementById('welcometxt').innerHTML="hello Isuru";
+        }
+
+        // document.getElementsByClassName('welcometxt')[0].innerHTML="Hello Isuru";
         
     </script>
 
