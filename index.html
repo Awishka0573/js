@@ -8,41 +8,62 @@
 <body>
 
     <!-- <button onclick="alert('Welcome Awishka')">Click Here</button> -->
-    <p id="welcometxt">Hello </p>
+    <!-- <p id="welcometxt">Hello </p>
     <button id="color">Color</button>
 
     <button id="size">size</button>
 
-    <button id="hide">Hide</button>
-    
+    <button id="hide">Hide</button> -->
 
-
+    <p>Enter ur user name</p>
+    <input type="text" id="entername">
+    <button id="usernamebtn">Submit</button>
 
 
     <script type="text/javascript">
 
-        document.getElementById('color').onclick= function(){
-            document.getElementById('welcometxt').style.color="red" ;
+        document.getElementById("usernamebtn").onclick= function() {
+           var user = document.getElementById("entername").value;
+           var entername = "ahinsa";
+
+           if(user==entername){
+            alert("login successfully");
+           }else{
+            alert("oops something worng try again !");
+           }
+            
         }
-        document.getElementById('size').onclick= function(){
-            document.getElementById('welcometxt').style.fontSize="20px" ;
-        }
-        document.getElementById('hide').onclick= function(){
-            document.getElementById('welcometxt').style.display="none" ;
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // document.getElementById('color').onclick= function(){
+        //     document.getElementById('welcometxt').style.color="red" ;
+        // }
+        // document.getElementById('size').onclick= function(){
+        //     document.getElementById('welcometxt').style.fontSize="20px" ;
+        // }
+        // document.getElementById('hide').onclick= function(){
+        //     document.getElementById('welcometxt').style.display="none" ;
+        // }
        
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
