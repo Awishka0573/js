@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    margin: 20px;
+    border-radius: 70px;
+    cursor: pointer;
+
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(234, 255, 47);
+    margin: 20px;
+    cursor: pointer;
+
+}
