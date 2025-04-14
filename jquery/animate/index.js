@@ -1,4 +1,4 @@
-$(".circle").hover(function(){
+$(".circle").click(function(){
 
     $(this).animate({
 
