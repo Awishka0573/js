@@ -1,2 +1,2 @@
 
-$( "#draggable" ).draggable();
+$( "#draggable" ).draggable({ axis: "y" });
